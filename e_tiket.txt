@@ -1,0 +1,8 @@
+create model with migration Station, Ticket, Train, Schedule, Bogi, Seat
+
+
+station=>name,address,lat,lon
+
+ticket=>unsignbigin(station_from),station_to,user_id,price,train_id,journey_time,bogi_name,seat_name
+
+ 
